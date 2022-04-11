@@ -1,11 +1,11 @@
-Class Dog:
+class Dog:
   def __init__(self, name):
     self.name = name
     
   def speak(self):
     return "Woof!"
   
-Class Cat:
+class Cat:
   def __init__(self, name):
     self.name = name
     
