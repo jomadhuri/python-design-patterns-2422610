@@ -14,7 +14,7 @@ class Cat:
   
 def get_pet(pet):
   pets = dict()
-  pets = {dog: Dog("Marley"), cat: Cat("Kitty")}
+  pets = {"dog": Dog("Marley"), "cat": Cat("Kitty")}
   return pets[pet]
 
 d = get_pet("dog")
